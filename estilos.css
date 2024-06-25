@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+body.light-mode h1,
+body.light-mode .form-check-label {
+    color: #000;
+}
+
+body.dark-mode h1,
+body.dark-mode .form-check-label {
+    color: #fff;
+}
+
+#wheel-container {
+    margin: 20px auto;
+    position: relative;
+}
+
+#options-input {
+    width: 300px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+body.light-mode #options-input {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+canvas {
+    border: 1px solid #ccc;
+}
